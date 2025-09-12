@@ -1,0 +1,84 @@
+<!--
+- inline and internal CSS (e.g. <p style="color: red;">, <style>p {color:red;}</style>) ✔️
+
+- id, class, and element selectors ✔️
+e.g.
+
+- color, font-size, text-align ✔️
+
+- background-color ✔️
+
+use one new CSS feature we haven't learned yet from this list - https://www.w3schools.com/cssref/default.aspLinks to an external site. ✔️
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Thing</title>
+    <style>
+        body {
+            background-color: rgb(202, 202, 255);
+        }
+
+        #blue-text {
+            color: rgb(189, 189, 255);
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
+        }
+
+        #pink-text {
+            color: rgb(255, 189, 189);
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <ul class="nav">
+        <li id="blue-text"><a href="index.html">Favorite Thing</a></li>
+        <li id="pink-text"><a href="class.html">Favorite Class</a></li>
+    </ul>
+
+    <h1 style="border: 5px dotted rgb(130, 130, 210); display: inline-block; padding: 5px;">
+        What is my <em><b>Favorite</b></em> thing about school?
+    </h1>
+
+    <h2 id="blue-text" style="font-size: 30;">My favorite thing about school is the <em>community.</em>
+    </h2>
+    <p>
+    <ol>
+        <li style="font-family: Arial, Helvetica, sans-serif;">
+            I enjoy talking to people, like my friends.
+        </li>
+        <br>
+        <li style="font-family: Arial, Helvetica, sans-serif;">I meet new people</li>
+        <br>
+        <li style="font-family: Arial, Helvetica, sans-serif;">I enjoy playing tennis and meet new people who also like
+            <a href="https://maps.app.goo.gl/jwvAKLZD3LVRmyEz9"><strong>tennis.</strong></a>
+        </li>
+
+        <li style="font-family: Arial, Helvetica, sans-serif;"> <a
+                href="https://www.youtube.com/watch?v=DHo1mw7lj3s"><b> here</b></a> is a video of Jannik Sinner and
+            Carlos
+            Alcaraz's recent match! </li>
+        <br>
+        <img src="images/tennis.jpg" width="150">
+        <br>
+        <br>
+        <li style="font-family: Arial, Helvetica, sans-serif;">I like the lunch, especially the
+            <strong>POTATOES!</strong>
+        </li>
+        <br>
+        <img src="images/Lindsey_Eats_Crispy_Fried_Potatoes_Aloo_Makala-3.jpg" width="150">
+        <h3 style="font-family: Arial, Helvetica, sans-serif; color:rgb(107, 118, 168)">At lunch, I sit with my friends,
+            (AKA the community). We talk about our classes, or things unrelated to
+            school.</h3>
+
+</body>
+
+</html>
